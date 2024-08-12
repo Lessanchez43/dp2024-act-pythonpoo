@@ -27,13 +27,3 @@ class OperacionesSueldos:
     def total_liquido(self):
         self.liquido=self.total - self.des
         print("El total liquido ganado es de: ",self.liquido)
-
-ope = OperacionesSueldos()
-ope.sueldo_base=float(input("Ingrese Sueldo Base:\t"))
-ope.ventas_realizadas=float(input("Ingrese las ventas realizadas:\t"))
-ope.comision()
-ope.igss()
-ope.ahorro()
-ope.ganado()
-ope.descuentos()
-ope.total_liquido()
