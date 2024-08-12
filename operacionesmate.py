@@ -33,13 +33,3 @@ class OperacionesMatematicas:
     def raiz(self):
         raiz_cuadrada = math.sqrt(self.resultado)
         print("La raíz cuadrada es: ",raiz_cuadrada)
-            
-ope = OperacionesMatematicas()
-ope.valor1=float(input("Ingrese un número:\t"))
-ope.valor2=float(input("Ingrese otro número:\t"))
-ope.sumar()
-ope.multiplicar()
-ope.promedio()
-ope.mayor()
-ope.par()
-ope.raiz()
